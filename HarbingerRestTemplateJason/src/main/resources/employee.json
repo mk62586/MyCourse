@@ -1,0 +1,30 @@
+{
+    "id": 4,
+    "empCode": "11",
+    "gender": "M",
+    "phoneNo": 67775,
+    "fName":"Rahul",
+    "mName":"Ronit",
+    "address": [
+        {
+            "id": 101,
+            "empId": 102,
+            "line1": "Dhanba",
+            "line2": "fxfd",
+            "city": "Bokaro",
+            "state": "cgcgcf",
+            "country": "india",
+            "pinCode": 25552
+        },
+        {
+            "id": 102,
+            "empId": 103,
+            "line1": "srg",
+            "line2": "dhanbad",
+            "city": "Dhanbad",
+            "state": "cghghbcgcf",
+            "country": "india",
+            "pinCode": 25558882
+        }
+    ]
+}

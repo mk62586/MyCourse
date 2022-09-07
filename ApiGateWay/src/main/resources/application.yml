@@ -1,0 +1,20 @@
+server:
+  port: 9191
+  
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      routes:
+      - id: LOAN-SERVICE
+        uri: lb://LOAN-SERVICE
+        predicates:
+         - Path=/api/Loan/**
+      - id:  CUSTOMER-SERVICE
+        uri: lb:// CUSTOMER-SERVICE
+        predicates:
+         - Path=/api/customer/**
+      
+
+          
